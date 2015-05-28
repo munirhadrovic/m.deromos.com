@@ -20,6 +20,11 @@
 		<link rel="stylesheet" href="css/style-mobile.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dancing+Script" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="touchTouch/touchTouch.css" />
+        <script src="touchTouch/touchTouch.jquery.js"></script>
+        <script src="js/script.js"></script>
 		<script>
 			
 			$(function(){
@@ -100,6 +105,41 @@
                     prependTo:'#navigation-menu14'
                 });
             });
+            $(function(){
+                $('#menu15').slicknav({
+                    prependTo:'#navigation-menu15'
+                });
+            });
+            $(function(){
+                $('#menu16').slicknav({
+                    prependTo:'#navigation-menu16'
+                });
+            });
+            $(function(){
+                $('#menu17').slicknav({
+                    prependTo:'#navigation-menu17'
+                });
+            });
+            $(function(){
+                $('#menu18').slicknav({
+                    prependTo:'#navigation-menu18'
+                });
+            });
+            $(function(){
+                $('#menu19').slicknav({
+                    prependTo:'#navigation-menu19'
+                });
+            });
+            $(function(){
+                $('#menu20').slicknav({
+                    prependTo:'#navigation-menu20'
+                });
+            });
+            $(function(){
+                $('#menu-gallery').slicknav({
+                    prependTo:'#navigation-menu-gallery'
+                });
+            });
 			$(function(){
 				$('#menu-contact').slicknav({
 					prependTo:'#navigation-menu-contact'
@@ -171,7 +211,7 @@
 		    <h1><a href="#page1"><img src="img/logo.png" alt="LOGO"></a></h1>
 		</div>
 		<div data-role="footer" data-theme="<?php echo $theme ?>" data-position="fixed">
-			<h1>Powered by <a href="http://mobilegrows.com/" rel="external">MobileGrows</a> | <a href="http://furniturestorenaples.com/" rel="external">Desktop Site</a></h1>
+			<h1>Powered by <a href="http://mobilegrows.com/" rel="external">MobileGrows</a> | <a href="http://www.deromos.com/" rel="external">Desktop Site</a></h1>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<div data-role="page" id="page1" data-theme="<?php echo $theme ?>">
@@ -286,92 +326,112 @@
                   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#meet" data-transition="<?php echo $transitionefect ?>">Meet&Poultry</a>
                   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#food" data-transition="<?php echo $transitionefect ?>">Prepared Foods</a>
                   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#gourmet" data-transition="<?php echo $transitionefect ?>">Gourmet To-Go</a>
-                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#lighting" data-transition="<?php echo $transitionefect ?>">Produce</a>
-                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#mirrors" data-transition="<?php echo $transitionefect ?>">SpecialtyGroceryItems</a>
-                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#rugs" data-transition="<?php echo $transitionefect ?>">Wines&Spirits</a>
-                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#tables" data-transition="<?php echo $transitionefect ?>">Gift Baskets&Floral Center</a>
-                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#wall" data-transition="<?php echo $transitionefect ?>">Market Menu</a>
+                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#produce" data-transition="<?php echo $transitionefect ?>">Produce</a>
+                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#specialty" data-transition="<?php echo $transitionefect ?>">SpecialtyGroceryItems</a>
+                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#wine" data-transition="<?php echo $transitionefect ?>">Wines&Spirits</a>
+                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#gift" data-transition="<?php echo $transitionefect ?>">Gift Baskets&Floral Center</a>
+                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#market" data-transition="<?php echo $transitionefect ?>">Market Menu</a>
               </div>
               <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                   <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-right buttons-radius" href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a>
                   </div>
               </div>
               <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
-                  <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-right buttons-radius" href="#catering" data-transition="<?php echo $transitionefect ?>">Catareing</a>
+                  <div class="ui-block-a buttons-semir "><a class="ui-btn ui-icon-info ui-btn-icon-right buttons-radius" href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a>
                   </div>
               </div>
               <div data-role="collapsible" data-theme="<?php echo $theme ?>" data-content-theme="<?php echo $theme ?>" data-iconpos="right" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
                   <h3>Articles</h3>
                   <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#event" data-transition="<?php echo $transitionefect ?>">Event Calendar</a>
-                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#photo" data-transition="<?php echo $transitionefect ?>">Photo Gallery</a>
-
+                  <a class="ui-btn ui-icon-info ui-btn-icon-left buttons-radius" href="#gallery" data-transition="<?php echo $transitionefect ?>">Photo Gallery</a>
               </div>
-             <!-- <div id="otw_widget-2" class="otw-shadow-dark-style widget open-table-widget"><h2 class="otw-widget-title widgettitle">Reservations:</h2>
-                  <div class="otw-shadow-dark">
-
-
-                      <div class="otw-widget-form-wrap">
-                          <form method="get" class="otw-widget-form" action="http://www.opentable.com/restaurant-search.aspx" target="_blank">
-                              <div class="otw-wrapper">
-
-                                  <div class="otw-date-li otw-input-wrap">
-                                      <label for="date-otw_widget-2">Date</label>
-                                      <input id="date-otw_widget-2" name="startDate" class="otw-reservation-date" type="text" value="" autocomplete="off">
-                                  </div>
-                                  <div class="otw-time-wrap otw-input-wrap">
-                                      <label for="time-otw_widget-2">Time</label>
-                                      <select id="time-otw_widget-2" name="ResTime" class="otw-reservation-time selectpicker">
-                                          <option value="5:00pm">5:00 pm</option>
-                                          <option value="5:30pm">5:30 pm</option>
-                                          <option value="6:00pm">6:00 pm</option>
-                                          <option value="6:30pm">6:30 pm</option>
-                                          <option value="7:00pm" selected="selected">7:00 pm</option>
-                                          <option value="7:30pm">7:30 pm</option>
-                                          <option value="8:00pm">8:00 pm</option>
-                                          <option value="8:30pm">8:30 pm</option>
-                                          <option value="9:00pm">9:00 pm</option>
-                                          <option value="9:30pm">9:30 pm</option>
-                                          <option value="10:00pm">10:00 pm</option>
-                                          <option value="10:30pm">10:30 pm</option>
-                                          <option value="11:00pm">11:00 pm</option>
-                                          <option value="11:30pm">11:30 pm</option>
-                                      </select>
-
-                                  </div>
-                                  <div class="otw-party-size-wrap otw-input-wrap">
-                                      <label for="party-otw_widget-2">Party Size</label>
-                                      <select id="party-otw_widget-2" name="partySize" class="otw-party-size-select selectpicker">
-                                          <option value="1">1 Person</option>
-                                          <option value="2" selected="selected">2 People</option>
-                                          <option value="3">3 People</option>
-                                          <option value="4">4 People</option>
-                                          <option value="5">5 People</option>
-                                          <option value="6">6 People</option>
-                                          <option value="7">7 People</option>
-                                          <option value="8">8 People</option>
-                                          <option value="9">9 People</option>
-                                          <option value="10">10 People</option>
-                                      </select>
-
-                                  </div>
-
-                                  <div class="otw-button-wrap">
-                                      <input type="submit" class="otw-submit-btn" value="Find a Table">
-                                  </div>
-                                  <input type="hidden" name="RestaurantID" class="RestaurantID" value="140050">
-                                  <input type="hidden" name="rid" class="rid" value="140050">
-                                  <input type="hidden" name="GeoID" class="GeoID" value="15">
-                                  <input type="hidden" name="txtDateFormat" class="txtDateFormat" value="MM/dd/yyyy">
-                                  <input type="hidden" name="RestaurantReferralID" class="RestaurantReferralID" value="140050">
-                              </div>
-                          </form>
-                          <div class="powered-by-open-table"><span class="powered-by-text">Powered By:</span></div>
-                      </div><!-- /.otw-widget-form-wrap -->
-                  </div>
-              </div> -->
+                 </div>
+            <a href="http://www.opentable.com/deromos-gourmet-market-and-restaurant?rid=140050&restref=140050" rel="external"><img src="img/boookkk.jpg"  alt style="padding-left:90px;padding-top: 10px;"></a>
+              </div>
 		  </div>
 		</div>
 		<!-- page 1 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <!-- about ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <div data-role="page" id="about" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu19">
+                        <ul id="menu19">
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
+                            <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/about.jpg" alt style="padding-left:10px;padding-top: 10px;">
+                    <h3>ABOUT</h3>
+                    <p>HOURS OF OPERATION</p>
+                    <p><strong>Coffee Bar</strong></p>
+                    <p>Mon-Sat |   7am-8pm
+                        Sunday    |  7am-6pm</p>
+                    <p><strong>Market</strong></p>
+                    <p>Mon-Sat |   9am-8pm
+                        Sunday    |  9am-6pm</p>
+                    <p><strong>Restaurant</strong></p>
+                    <p>Lunch: Mon-Sun |   11am-3pm
+                        Dinner: Mon-Sun |   4pm-10pm</p>
+                    <p>WHO WE ARE</p>
+                    <img src="img/about-letters.jpg" alt style="padding-left:10px;">
+                    <p>DeRomo’s is a family-owned, premier Gourmet Market, Restaurant and Catering company with a passion for great food and great service. For many years, we have shared this passion with customers throughout South Florida and New York. Including the development and operation of DeRosa’s Gourmet Market & Bakery in Fort Lauderdale, Florida (opened in 2001), our owner, Francis J. Cuomo, and his managing team has decades of experience in all aspects of food service, restaurant operations, catering, marketing, site selection, and creative design work.</p>
+                    <img src="img/young-francis-250x597.jpg" alt style="padding-left:10px;">
+                    <p>It is our goal to offer a unique shopping, dining, and entertainment experience with DeRomo’s Gourmet Market and Restaurant. Our product line is constantly expanding through customer requests and we are dedicated to traveling to specialty food shows all over the world to stock the best and most up-to-date products available.</p>
+                    <p>ROBERTO CARDENAS RIMAROW</p>
+                    <img src="img/chef_photo.jpg" alt style="padding-left:10px;">
+                    <p>Executive Corporate Chef Roberto Cardenas Rimarow was educated and trained in Europe. He brings nearly 20 years of experience specializing in Italian cuisine to DeRomo’s. He is also the recipient of two awards from Distinguished Restaurants of North America. In 2000 and 2001 he was awarded the DiRona Award of Distinction while at La Bussola, Coral Gables, Florida. He comes to DeRomo’s with experience working at restaurants on Florida’s east coast, as well as in Munich, Germany and Rome. Accustomed to catering to the most discriminating clientele, Rimarow is pleased to bring his love of food and people, along with his creative and innovative style of traditional Italian cuisine, to Southwest Florida.
+
+                        Wondering how we got our name? Check out our What’s In a Name? page!</p>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- end about ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <!-- markett ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <div data-role="page" id="markett" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu20">
+                        <ul id="menu20">
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
+                            <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/markettt.jpg" alt style="padding-left:10px;padding-top: 10px;">
+                    <h3>THE MARKET</h3>
+
+                    <p><strong>MARKET HOURS</strong></p>
+                    <p>Mon-Sat |   9am-8pm
+                        Sunday    |  9am-6pm</p>
+                    <p><strong>COFFEE BAR HOURS</strong></p>
+                    <p>Mon-Sat |   7am-8pm
+                        Sunday    |  7am-6pm</p>
+                    <p>At DeRomo’s Gourmet Market, you will find an impressive collection of imported, domestic, conventional, and organic products from all over the world nestled among our impressive meat, seafood, prepared foods, deli, produce, bakery, coffee bar, cheeses, extensive wine selection, gift basket center and much more. Whatever your culinary needs or choices are, you are bound to find what you need when you stroll through our marketplace!</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- end about ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<!-- catering ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
 		<div data-role="page" id="catering" data-theme="<?php echo $theme ?>">
@@ -379,10 +439,9 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu">
 						<ul id="menu">
-							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-							<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+							<li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+							<li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                           	<li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
-                            <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
 							<li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
 						</ul>
@@ -399,7 +458,7 @@
 
                         We also offer Gourmet To Go foods in our Market, including hot and cold party platters to accommodate any event!
 
-                        If you are interested in knowing more about out Catering Services or would like to place an order please call 239-325-3583 ext 2 or email Kathy Ardito at kathya@deromos.com</p>
+                        If you are interested in knowing more about out Catering Services or would like to place an order please call 239-287-5174 ext 2 or email Kathy Ardito at kathya@deromos.com</p>
                     <img src="img/decor.jpg" alt style="padding-left:10px;">
                     <p><a href="http://www.deromos.com/wp-content/themes/deromos/menus/Deromos-Catering-Menu.pdf" rel="external"><strong>SEE OUR FULL MENU OFF CATERING SERVICES!</strong></p></a>
                     <p><a href="http://www.deromos.com/wp-content/themes/deromos/menus/DeRomos-Banquet-Room.pdf" rel="external"><strong>BANQUET ROOM</strong></p></a>
@@ -419,8 +478,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu1">
 						<ul id="menu1">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -444,6 +503,45 @@
 		</div>
 		
 		<!-- end what ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <!--gallery ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div id="gallery" data-role="page" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" >
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu-gallery">
+                        <ul id="menu-gallery" >
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
+                            <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/photooooo.jpg"  alt style="padding-left:10px;padding-top: 10px;">
+                    <h3>PHOTO GALLERY</h3>
+                    <div class="thumbs">
+                        <a href="img/galerija/photo1.jpg" style="background-image:url(img/galerija/photo1.jpg)" ></a>
+                        <a href="img/galerija/photo2.jpg" style="background-image:url(img/galerija/photo2.jpg)" title=""></a>
+                        <a href="img/galerija/photo3.jpg" style="background-image:url(img/galerija/photo3.jpg)" title=""></a>
+                        <a href="img/galerija/photo4.jpg" style="background-image:url(img/galerija/photo4.jpg)" title=""></a>
+                        <a href="img/galerija/photo5.jpg" style="background-image:url(img/galerija/photo5.jpg)" title=""></a>
+                        <a href="img/galerija/photo6.jpg" style="background-image:url(img/galerija/photo6.jpg)" title=""></a>
+                        <a href="img/galerija/photo7.jpg" style="background-image:url(img/galerija/photo7.jpg)" title=""></a>
+                        <a href="img/galerija/photo8.jpg" style="background-image:url(img/galerija/photo8.jpg)" title=""></a>
+                        <a href="img/galerija/photo9.jpg"  style="background-image:url(img/galerija/photo9.jpg)" title=""></a>
+                        <a href="img/galerija/photo10.jpg" style="background-image:url(img/galerija/photo10.jpg)" title=""></a>
+                        <a href="img/galerija/photo11.jpg" style="background-image:url(img/galerija/photo11.jpg)" title=""></a>
+                        <a href="img/galerija/photo12.jpg" style="background-image:url(img/galerija/photo12.jpg)" title=""></a>
+                        <a href="img/galerija/photo13.jpg"   style="background-image:url(img/galerija/photo13.jpg)" title=""></a>
+                        <a href="img/galerija/photo14.jpg" style="background-image:url(img/galerija/photo14.jpg)" title=""></a>
+                        <a href="img/galerija/photo15.jpg"   style="background-image:url(img/galerija/photo15.jpg)" title=""></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--page gallery ends///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 		<!-- restaurant ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
 		<div data-role="page" id="restaurant" data-theme="<?php echo $theme ?>">
@@ -451,9 +549,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu2">
 						<ul id="menu2">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
-                            <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
@@ -489,8 +586,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu3">
 						<ul id="menu3">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -512,26 +609,32 @@
 		</div>
 		
 		<!-- end pizzeria///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
-		<!--clearance ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<!--produce ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-		<div data-role="page" id="clearance" data-theme="<?php echo $theme ?>">
+		<div data-role="page" id="produce" data-theme="<?php echo $theme ?>">
 			<div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu4">
 						<ul id="menu4">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
                             <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
 						</ul>
 					</section>
-					<h3>Clearance</h3>
-                    <p>DESIGN IS COMING TO GRIPS WITH ONES REAL LIFESTYLE, ONES REAL PLACE IN THE WORLD. ROOMS SHOULD NOT BE PUT TOGETHER FOR SHOW BUT TO NOURISH ONES WELL BEING. ALBERT HADLEY</p>
-                     <img src="img/slika6.jpg" alt style="padding-left:10px;">
-                   	 <img src="img/slika7.jpg" alt style="padding-left:10px;">
-                   	 <img src="img/slika8.jpg" alt style="padding-left:10px;">
+                    <img src="img/producee.jpg"  alt style="padding-left:10px;padding-top: 10px;">
+					<h3>PRODUCE</h3>
+                    <p>KEEP IT FRESH & FUN!</p>
+                    <img src="img/apple-display.jpg"  alt style="padding-left:10px;padding-top: 10px;">
+                    <p>At <strong>DeRomo’s Gourmet Market</strong>, we know that there is no other department that puts our reputation on the line like fresh produce. Our produce must be of the highest quality, competitively priced, and have a variety that keeps our customers coming back time after time while having fun creating their own gourmet dishes at home.
+
+                        Our produce buyers are passionate about finding the freshest and finest products available. They purchase locally grown and certified organic produce, which is delivered to our Market daily. We support local farmers, ranchers, growers, and producers, bringing the freshest produce to your table.</p>
+                    <img src="img/good-organic-produce.jpg"  alt style="padding-left:10px;padding-top: 10px;">
+                    <p>FOR CONVENIENCE</p>
+                    <p>Let us do all the preparation for you by choosing from our selection of fresh peeled and cut fruits and vegetables to create a variety of mouth watering platters for all occasions!</p>
+
 
                 </div>
 
@@ -540,7 +643,136 @@
 				
 		</div>
 		
-		<!-- end clearance ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<!-- end produce ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <!--specialty ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <div data-role="page" id="specialty" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu15">
+                        <ul id="menu15">
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
+                            <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/specialtyyy.jpg"  alt style="padding-left:10px;padding-top: 10px;">
+                    <h3>SPECIALTY GROCERY ITEMS</h3>
+                    <p>WHERE VARIETY AND UNIQUENESS COME TOGETHER</p>
+                    <img src="img/pasta-style.jpg"  alt style="padding-left:10px;padding-top: 10px;">
+                    <p><strong>DeRomo’s Gourmet Market</strong>,takes pride in bringing a wide variety of great food products to your table! A walk through our unique and creatively designed store is sure to introduce you to an impressive collection of imported, domestic, conventional and organic products. We have our own jarred and labeled sauces, dressings, olive oils, truffle oils, pastas, grains, vinegars and condiments, as well as chocolates, marinades, coffees, teas and seasonings.
+
+                        Our gluten-free and organic groceries will accommodate all your dietary needs and preferences. Our gluten-free section offers cookies, candies, pasta, wheat-less flours, pancake mixes, and more. There is something to satisfy every taste and every palate.</p>
+                    <p>IF YOU WANT IT, WE’LL FIND IT!</p>
+                    <p>Found a product you like? We suggest you take a picture (or write down the name) of the product, get it to us, and we will make every effort to locate and stock the product in our Market.</p>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- end specialty ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <!--winee ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <div data-role="page" id="wine" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu16">
+                        <ul id="menu16">
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
+                            <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/wineee.jpg"  alt style="padding-left:10px;padding-top: 10px;">
+                    <h3>WINES & SPIRITS</h3>
+                    <p>GREAT WINE COMPLIMENTS GREAT FOOD!</p>
+                    <img src="img/wine-glasses.jpg"  alt style="padding-left:10px;padding-top: 10px;">
+                    <p>Wines and spirits have been enjoyed throughout the centuries as they are appreciated not only physically, but also intellectually and emotionally, with the best wines conveying a sense of balance and depth. DeRomo’s offers a wide variety of wines including hard-to-find vintages and gems from small producers, while also featuring five of our own labeled wines, as well as already chilled champagnes and wines. Our wine director is always available to assist you in wine selection and pairing. Also for our customers’ convenience, we offer imported beers in our Market, that you won’t find in most of the “box stores”.</p>
+                    <p>JOIN US FOR OUR QUARTERLY WINE TASTING</p>
+                    <p><strong>DeRomo’s</strong> will host four wine tastings per year, pairing up wines with great samplings of food from our Gourmet Market and live entertainment. Stay tuned to our Events Calendar for information on our first tasting!</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- end winee ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <!--gift ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <div data-role="page" id="gift" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu17">
+                        <ul id="menu17">
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
+                            <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+                    <img src="img/gifttt.jpg"  alt style="padding-left:10px;padding-top: 10px;">
+                    <h3>GIFT BASKETS & FLORAL CENTER</h3>
+                    <p>A “GIFT” IN A “BASKET”</p>
+                    <img src="img/gift-basket3.jpg"  alt style="padding-left:10px;padding-top: 10px;">
+                    <p><strong>DeRomo’s Gift Basket Shop</strong> offers specialty gift baskets with items hand-selected and assembled by our staff to meet each customer’s specific requirements. Our specialty gift baskets contain a variety of items from our Gourmet Food Market including fresh ingredients for that special meal, rare imported food items, and our incredible baked goods straight from our Bake Shop.
+
+                        We feature themed gift baskets to accommodate everything from corporate parties to just wanting to say “thank you”.
+
+                        See our gift basket catalog to help assist in choosing the appropriate basket for your needs.</p>
+                    <p>BUILD YOUR OWN BASKET</p>
+                    <p>Do you need a customized gift basket for a special person or event? Just select your specialty items throughout our market, then stroll over to our Gift Basket Shop, choose from one of our many varieties of baskets, wrapping paper, and ribbons – and then let us do the rest!</p>
+                    <p>FLOWERS ON THE GO</p>
+                    <p>As you enter our Gourmet Market, you cannot help but notice an array of ready-to-go hand-cut fresh flowers, bouquets, and custom-made arrangements, as well as potted plants and fresh herbs.
+
+                        Click below to see our assortment of gift baskets.</p>
+                    <p><a href="http://www.deromos.com/wp-content/themes/deromos/menus/DeRomos-Gift-Basket-Brochure.pdf" rel="external"><strong>GIFT BASKETS</strong></p></a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- end gift ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <!--MARKET MENU ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+        <div data-role="page" id="market" data-theme="<?php echo $theme ?>">
+            <div data-role="main" class="ui-content" data-theme="<?php echo $theme ?>">
+                <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
+                    <section id="navigation-menu18">
+                        <ul id="menu18">
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
+                            <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
+                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
+                            <li><a href="#contactform" data-transition="<?php echo $transitionefect ?>">Contact Us</a></li>
+                        </ul>
+                    </section>
+
+                    <p><a href="http://www.deromos.com/wp-content/themes/deromos/menus/Deromos-Market-Menu.pdf" rel="external"><strong>MARKET MENU</strong></p></a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- end MARKET MENU ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<!-- bake///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
 		<div data-role="page" id="bake" data-theme="<?php echo $theme ?>">
@@ -548,8 +780,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu6">
 						<ul id="menu6">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -563,7 +795,7 @@
                     <p>Is a meal truly complete without dessert? One glance at <strong> DeRomo’s</strong> fresh baked goods will answer that.
 
                         Master Baker Mike Caforio, originally from Brooklyn, NY, blends his own recipes with Nonna Roseanne’s family recipes to create authentic Italian breads, pastries, and cakes. In our bakery, we take pride using these recipes to create:</p>
-                    <h3>Breads</h3>
+                    <h3>BREADS</h3>
                     <ul>
                         <li>Ciabata</li>
                         <li>Foccacia</li>
@@ -610,8 +842,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu7">
 						<ul id="menu7">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -623,6 +855,68 @@
                     <p>BE PART OF OUR GROWING TEAM</p>
                     <p>At <strong>DeRomo’s Gourmet Market and Restaurant</strong>, we strive for exceptional taste and consistency, as well as unparalleled customer service. We recognize that our employees are our most valuable resource to make this happen. Our team members make us who we are by being who they are and by bringing their passion for great food and great service into the workplace.</p>
                     <p>If you are interested in a position at <strong>DeRomo’s</strong>, please fill out the job application below and email the completed application, along with your résumé, to jobs@deromos.com.</p>
+                    <p><a href="http://www.deromos.com/wp-content/uploads/2014/03/DeRomos-App-03-141.pdf" rel="external"><strong>DEROMO’S JOB APPLICATION</strong></p></a>
+                    <p>LIST OF OPEN EMPLOYMENT OPPORTUNITIES</p>
+                        <p><strong>Gourmet Market</strong></p>
+                        <ul>
+                            <li>General Manager</li>
+                            <li>Asst. Store Managers</li>
+                            <li>Perishable Food Supervisor</li>
+                            <li>Purchasing Director for All </li>
+                            <li>Receiver / Stock Person </li>
+                            <li>Wine Stewt. / Purchaser </li>
+                            <li>Cashiers   (FT/PT) </li>
+                            <li>Frontend Baggers / Delivery </li>
+                            <li>Meat Dept. Supervisor </li>
+                            <li>Meat cutters </li>
+                            <li>Meat Dept. Counter Clerks </li>
+                            <li>Seafood Dept. Supervisor </li>
+                            <li>Seafood Dept. Counter Clerks </li>
+                            <li>Executive Catering Chef </li>
+                            <li>Asst. Prepared Foods Chef </li>
+                            <li>Prepared Foods Prep Person </li>
+                            <li>Prep.Fd. Counter Clerks </li>
+                            <li>Deli Dept.  Supervisor </li>
+                            <li>Deli Dept. Counter Clerks </li>
+                            <li>Cheese Dept. Clerks </li>
+                            <li>Produce Dept. Supervisor </li>
+                            <li>Produce Dept. Clerks </li>
+                            <li>Pizza Makers </li>
+                            <li>Pizza Dept. Counter Clerks </li>
+                            <li>Executive Pastry Chef </li>
+                            <li>Bakers Assistants </li>
+                            <li>Bakery Dept. Counter Clerks </li>
+                            <li>Coffee Bar Counter Clerks </li>
+                            <li>Pot Washers   (FT/PT) </li>
+                        </ul>
+
+                    <p><strong>Restaurant</strong></p>
+                    <ul>
+                        <li>General Manager</li>
+                        <li>Asst. Manager</li>
+                        <li>Bar Manager</li>
+                        <li>Bartenders </li>
+                        <li>Host / Hostesses</li>
+                        <li>Servers  (FT/PT)</li>
+                        <li>Bus Help</li>
+                        <li>Expediters</li>
+                        <li>Food Runners</li>
+                        <li>Executive Chef</li>
+                        <li>Sous Chef</li>
+                        <li>Line Cooks </li>
+                        <li>Pantry Person</li>
+                        <li>Prep Person </li>
+                        <li>Dishwashers</li>
+                    </ul>
+
+                    <p><strong>Gift Baskets/Catering</strong></p>
+                    <ul>
+                        <li>Gift Basket Dept. Supervisor</li>
+                        <li>Gift Basket Clerks/Assembler’s </li>
+                        <li>Pasta Makers (FT/PT)</li>
+                        <li>Catering Director</li>
+                    </ul>
+
                 </div>
 
 			</div>	
@@ -638,8 +932,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu8">
 						<ul id="menu8">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -671,8 +965,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu9">
 						<ul id="menu9">
-							<<li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -704,8 +998,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu10">
 						<ul id="menu10">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -744,8 +1038,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu11">
 						<ul id="menu11">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -775,8 +1069,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu12">
 						<ul id="menu12">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -802,7 +1096,7 @@
 				
 		</div>
 		
-		<!-- end tables ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+		<!-- end food ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 		<!--gourmet ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
 		<div data-role="page" id="gourmet" data-theme="<?php echo $theme ?>">
@@ -810,8 +1104,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu13">
 						<ul id="menu13">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -849,8 +1143,8 @@
                 <div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
                     <section id="navigation-menu14">
                         <ul id="menu14">
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                            <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                            <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                            <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                             <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                             <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                             <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>
@@ -877,8 +1171,8 @@
 				<div class="ui-grid-solo" data-theme="<?php echo $theme ?>">
 					<section id="navigation-menu-contact">
 							<ul id="menu-contact">
-                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">About</a></li>
-                                <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Market</a></li>
+                                <li><a href="#about" data-transition="<?php echo $transitionefect ?>">About</a></li>
+                                <li><a href="#markett" data-transition="<?php echo $transitionefect ?>">Market</a></li>
                                 <li><a href="#restaurant" data-transition="<?php echo $transitionefect ?>">Restaurant</a></li>
                                 <li><a href="#catering" data-transition="<?php echo $transitionefect ?>">Catering</a></li>
                                 <li><a href="#page1" data-transition="<?php echo $transitionefect ?>">Articles</a></li>

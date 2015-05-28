@@ -195,7 +195,7 @@ input#contact-submit-dugme {
 .callbacks_nav {
   position: absolute;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  top: 217px;
+  top: 225px;
   left: 0;
   opacity: 0.3;
   z-index: 3;
@@ -336,15 +336,39 @@ textarea {
 #menu14{
     display: none;
 }
-
+#menu15{
+    display: none;
+}
+#menu16{
+    display: none;
+}
+#menu17{
+    display: none;
+}
+#menu18{
+    display: none;
+}
+#menu19{
+    display: none;
+}
+#menu20{
+    display: none;
+}
+#menu-gallery{
+    display: none;
+}
 h1{
   padding: 10px;
 }
 h3{
-  padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: center;
 }
 p{
-  padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
 }
-
 
